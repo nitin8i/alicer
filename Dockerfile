@@ -8,7 +8,7 @@ RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
 
 RUN apt-get install -y nodejs
 
-RUN git clone https://github.com/Pranav-Saraswat/Ridhit Carbon
+RUN git clone https://github.com/nitin8i/alicerai Carbon
 
 RUN cd Carbon && pip3 install -U -r requirements.txt
 
